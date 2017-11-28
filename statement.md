@@ -1,16 +1,13 @@
-
-
-
 #include <iostream>
 
 int main() 
-{
-    int N;
-    std::cin >> N;
-    for(int i = 0; i < N; i++){
-        for(int j = 0; j < i; j++)
-            std::cout << N;
-        std::cout << std::endl;
-    }
-    return 0;
+{\n
+    int N;\n
+    std::cin >> N;\n
+    for(int i = 0; i < N; i++){\n
+        for(int j = 0; j < i; j++)\n
+            std::cout << N;\n
+        std::cout << std::endl;\n
+    }\n
+    return 0;\n
 }
